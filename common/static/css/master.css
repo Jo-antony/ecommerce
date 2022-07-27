@@ -1,0 +1,22 @@
+.one {
+    border: 1px solid red;
+    height: 70px;
+}
+
+.ule{
+    list-style: none;
+   
+}
+li{
+    float: left;
+    padding: 13px;
+}
+
+.second{
+    border: 1px solid red;
+    height: 50px;
+
+}
+.uli{
+    list-style: none;
+}
