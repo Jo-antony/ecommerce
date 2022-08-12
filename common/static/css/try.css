@@ -1,0 +1,28 @@
+.a{
+   border: 2px solid black;
+   height: 100px;
+   width: 100px;
+}
+.b{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    order: 2;
+    
+ }
+ .c{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+ }
+ .main{
+    border: 2px solid red;
+    display: flex;
+    height: 500px;
+    width: 400px;
+    padding: 30px;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+
+ }

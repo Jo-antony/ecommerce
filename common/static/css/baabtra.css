@@ -1,0 +1,196 @@
+
+.main{
+    margin: -10px;
+    /* min-height: auto;
+    height: 100vh; */
+   
+}
+.bar{
+    width: 100%;
+    height: 25px;
+    background-color: #007ee5;
+    height: 60px;
+    
+    
+}
+img{
+    padding-top: 15px;
+  
+    margin-left: 20px;
+}
+
+h4{
+    display: inline-block;
+    margin-left: 60rem;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+h3{
+    display: inline-block;
+    color: white;
+}
+
+.logo{
+    padding-left: 160px;
+}
+
+ul{
+    display: inline-block;
+   
+    margin-left: 70px;
+    position:absolute;
+    margin-top: 50px;
+    
+
+}
+
+li{
+    display: inline-block;
+    padding-left: 29px;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #4caf50;
+    border: none;
+    height: 39px;
+    width: 140px;
+    color: white;
+    border-radius: 4px;
+}
+option{
+    text-decoration: none;
+    border: none;
+}
+select{
+    border: none;
+    width: 19px;
+}
+
+.content{
+    width: 100%;
+    height: 600px;
+    background-color: #015c8e;
+    margin-left: -10px;
+    position: absolute;
+    top: 180px;
+    
+}
+.oray{
+    padding-left: 660px;
+    margin-top: 80px;
+   
+   
+    
+}
+p{
+    color: white;
+    font-size: 27px;
+    padding-left: 120px;
+    text-align: center;
+}
+
+
+.in{
+    background-color: #25536C;
+    width: 800px;
+    height: 200px;
+    position: absolute;
+    left: 400px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.p{
+    font-size: 18px;
+    margin-top: 12px;
+    
+    color: #007ee5;
+}
+.in h3{
+    padding-left: 12px;
+    font-size: 20px;
+}
+.img{
+    
+    height: 200px;
+    width: 200px;
+
+}
+.logos{
+    position: absolute;
+    top: 29rem;
+    left: 16rem;
+    /* border: 1px solid black; */
+    height: 250px;
+    width: 70rem;
+    margin-top: 200px;
+    
+}
+.content p{
+    position: relative;
+    right: 50px;
+
+}
+.logos ul{
+    display: flex;
+    margin-top: -89px;
+    margin-left: -28px;
+}
+.logos li{
+    text-decoration: none;
+    padding: 90px;
+}
+
+.txt{
+    font-size: large;
+}
+.how{
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+    top: 850px;
+    background-image: linear-gradient(180deg, #1bb3eb 0%, #25efcb 100%);
+}
+.how div{
+    border: 2px solid black;
+    width: 50%;
+    height: 600px;
+    float: right;
+}
+.how img{
+    position: absolute;
+    top: 40px;
+    height: 500px;
+    width: 700px;
+}
+.how div img{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top: 89px;
+    left: 853px;
+}
+h2{
+    font-size: 32px;
+    color: white;
+    padding-left: 77px;
+    margin-top: 30px;
+}
+
+.join{
+    font-size: larger;
+   position: absolute;
+   left: 59rem;
+   top: 130px;
+}
+
+ span{
+    color: white;
+}
+
+
+

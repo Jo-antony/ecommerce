@@ -18,3 +18,15 @@ def resellerlogin(request):
 
 def master(request):
     return render(request,'common/master.html')
+
+def baabtra(request):
+    return render(request,'common/baabtra.html')
+
+def tr(request):
+    return render(request,'common/try.html')
+
+def grid(request):
+    return render(request,'common/grid.html')
+
+def grid2(request):
+    return render(request,'common/grid2.html')

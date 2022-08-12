@@ -1,0 +1,26 @@
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+}
+.parent{
+    background-color: blue;
+    color: white;
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 'one one' 'two two' 'three four';
+}
+.parent div{
+    border: 2px solid red;
+    text-align: center;
+
+}
+
+

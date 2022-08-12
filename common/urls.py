@@ -7,7 +7,11 @@ urlpatterns = [
     path('adminlogin',views.adminlogin),
     path('cuslogin',views.cuslogin),
     path('resellerlogin',views.resellerlogin),
-    path('master',views.master)
+    path('master',views.master),
+    path('baabtra',views.baabtra),
+    path('tr',views.tr),
+    path('grid',views.grid),
+    path('grid2',views.grid2)
 
 
 ]

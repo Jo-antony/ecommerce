@@ -1,0 +1,74 @@
+ 
+
+.parent{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 100vh;
+    display: grid;
+    /* grid-template-columns: 200px 200px 400px 500px; */
+    /* grid-template-columns: 2fr 1fr 1fr; */
+    /* grid-template-columns: repeat(3,1fr );
+    grid-template-rows: 200px 300px 300px; */
+    grid-template-columns: repeat(5,1fr);
+    
+
+}
+
+.one{
+    /* grid-column-start: 1;
+    grid-column-end: span 3; */
+
+    /* grid-column: 1/span 2; */
+    /* grid-row-start: 1 ; */
+    /* grid-row-end: span 3; */
+
+    /* grid-row: 1/ span 2; */
+    /* grid-area: 1/1/span 2/ span 2; */
+    background-image: url('/static/images/grid/pexels-asad-photo-maldives-3293148.jpg');
+    background-size: cover;
+    
+
+
+}  
+.two{
+    grid-column: 2/span 2 ;
+    grid-row: 1/span 2;
+    background-image: url('/static/images/grid/pexels-fauxels-3183132.jpg');
+    background-size: cover;
+}
+.three{
+    grid-column: 4/span 5;
+    background-image: url('/static/images/grid/pexels-fauxels-3183198.jpg');
+    background-size: cover;
+}
+.five{
+    grid-column: 4/span 5;
+    background-image: url('/static/images/grid/pexels-asad-photo-maldives-3293148.jpg');
+    background-size: cover;
+}
+.four{
+    background-image: url('/static/images/grid/pexels-jae-park-3802510 (1).jpg');
+    background-size: cover;
+}
+
+.six{
+    background-image: url('/static/images/grid/pexels-jae-park-3802510 (1).jpg');
+    background-size: cover;
+}
+.seven{
+    background-image: url('/static/images/grid/pexels-mads-thomsen-2739013.jpg');
+    background-size: cover;
+}
+.eight{
+    background-image: url('/static/images/grid/pexels-skinny-alien-2318554.jpg');
+    background-size: cover;
+}
+.nine{
+    background-image: url('/static/images/grid/pexels-andre-furtado-370717.jpg');
+    background-size: cover;
+}
+
+.ten{
+    background-image: url('/static/images/grid/pexels-asad-photo-maldives-3293148.jpg');
+    background-size: cover;
+}
