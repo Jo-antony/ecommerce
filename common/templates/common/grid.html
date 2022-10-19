@@ -4,12 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="color-scheme" content="light">
     <title>Grid</title>
-    <link rel="stylesheet" href="{% static 'css/grid.css' %}">
+    <!-- <link rel="stylesheet" href="{% static 'css/grid.css' %}"> -->
+    <!-- <script src="{% static 'js/js4.js' %}"></script> -->
+    <script>
+        function switchtheme(){
+            const theme = document.getElementById("theme").value;
+            document.getElementsByTagName("meta")[2].content = theme;
+        }
+    </script>
 </head>
 <body>
-    <div class="parent">
+    <!-- <div class="parent">
         <div class="one"></div>
         <div class="two"></div>
         <div class="three"></div>
@@ -21,5 +29,29 @@
         <div class="nine"></div>
         <div class="ten"></div>
     </div>
+    <label>enter the number : </label>
+<input type="text" id="num"/>
+<button onclick="check()">check</button>
+
+<br><p id="ans"></p> -->
+
+
+    <p>Click the Button to change the theme</p>
+    <br>
+    <button onclick="switchtheme()">Click me</button><br><br>
+    <select name="" id="theme" onchange="switchtheme()">
+        <option value=""> Light</option>
+        <option value="">Dark</option>
+    </select>
 </body>
+
+
 </html>
+<!-- <script>
+    function sum(n1,n2){
+    document.write(n1 + n2)
+}
+
+sum(10,30)
+</script> -->
+

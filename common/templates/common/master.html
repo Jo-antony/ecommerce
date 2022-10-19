@@ -1,4 +1,6 @@
+{% extends "ecommerce/master.html" %}
 {% load static %}
+{% block header %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +10,28 @@
     <title>master page</title>
     <link rel="stylesheet" href="/common/templates/common/master.css">
 
-    
+    <style>
+        .one{
+            width: 100%;
+            color: gray;
+            border: 2px solid black;
+            height: 50px;
+            
+            
+        }
+        .one , li{
+            list-style: none;
+            display: inline-block;
+
+            padding: 0px 12px;
+            
+            
+        }
+        ul{
+            position: absolute;
+            left: 900px;
+        }
+    </style>
 </head>
 <body><div class="one">
     <nav>
@@ -20,17 +43,7 @@
         </ul>
     </nav></div>
 
-    <div class="two">
-        <nav>
-            <ul class="uli" >
-                <li>HOME</li>
-                <li>ORDER DETAILS</li>
-                <li>PROFILE</li>
-                <li>SETTINGS</li>
-            </ul>
-        </nav>
-        
-    </div>
+    
     
     
 </body>

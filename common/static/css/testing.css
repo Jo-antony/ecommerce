@@ -1,0 +1,15 @@
+.keys{
+    position: relative;
+    left: 200px;
+    top: 100px;
+    
+    padding:2px;
+}
+
+.key{
+    display: inline-block;
+}
+
+span{
+    
+}

@@ -30,3 +30,18 @@ def grid(request):
 
 def grid2(request):
     return render(request,'common/grid2.html')
+
+def grid3(request):
+    return render(request,'common/grid3.html')
+
+def javascript(request):
+    return render(request,'common/javascript.html')
+
+def calculator(request):
+    return render(request,'common/calculator.html')
+
+def jquery(request):
+    return render(request,'common/jquery.html')
+
+def testing(request):
+    return render(request,'common/testing.html')
